@@ -113,3 +113,21 @@
  *               message: Internal server error
  *               error: Something went wrong
  */
+
+/**
+ * @swagger
+ * components:
+ *   schemas:
+ *     User:
+ *       type: object
+ *       properties:
+ *         id:
+ *           type: string
+ *           example: abc123
+ *         email:
+ *           type: string
+ *           example: user@gmail.com
+ *         password:
+ *           type: string
+ *           example: 12345
+ */
